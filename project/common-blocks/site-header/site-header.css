@@ -1,0 +1,71 @@
+/*
+Styles for site header
+----------------------
+
+Global styles
+*/
+
+.site-header {
+  background-color: #2e86de;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  font-size: 14px;
+}
+
+.header__title {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+.header_nav_ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_nav_li {
+  list-style-type: none;
+}
+
+.header_nav_link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+/*
+Larger screen styles
+*/
+
+
+/*
+Mid-size screen styles
+*/
+
+
+/*
+Smaller screen styles
+*/
+
+@media (max-width: 450px) {
+
+  .site-header {
+    flex-direction: column;
+  }
+
+  .header__title {
+    margin: auto;
+  }
+
+  .header_nav_ul {
+    padding: 0;
+  }
+
+  .header_nav_li {
+    margin: auto;
+  }
+
+}
