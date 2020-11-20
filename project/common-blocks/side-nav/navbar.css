@@ -10,8 +10,9 @@ Global styles
     top: 78px;
     left: 0;
     z-index: 1;
-    width: 300px;
+    width: 270px;
     height: 100%;
+    font-size: 0.9em;
 }
 
 .side-nav__ul {
@@ -23,7 +24,7 @@ Global styles
 .side-nav-li-h1 {
     list-style-type: none;
     line-height: 2em;
-    padding: 15px 15px 15px 25px;
+    padding: 10px 15px 10px 25px;
     border-left: 1px solid #2e86de;
 }
 
@@ -44,21 +45,12 @@ Global styles
 .main {
     position: absolute;
     top: 200px;
-    left: 301px;
+    left: 271px;
     z-index: 0;
 }
 
 /*******TOBEMOVEDTOOTHERSTYLESHEET*************/
 
-
-
-/*
-Larger screen styles
-*/
-
-/* @media (min-width: 801px) {
-
-} */
 
 
 /*
