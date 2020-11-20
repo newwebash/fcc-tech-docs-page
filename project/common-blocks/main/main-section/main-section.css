@@ -1,0 +1,33 @@
+/*
+Styles for main section
+-----------------------
+
+Global styles
+*/
+
+.main {
+    position: absolute;
+    top: 88px;
+    left: 271px;
+    z-index: 0;
+}
+
+
+/*
+Mid-size screen styles
+*/
+
+
+/*
+Smaller screen styles
+*/
+
+@media (max-width: 450px) {
+
+    .main {
+        /* position: absolute; */
+        top: 262px;
+        left: 0;
+    }
+
+}
