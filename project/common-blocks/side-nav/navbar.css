@@ -39,20 +39,6 @@ Global styles
 }
 
 
-
-/*******TOBEMOVEDTOOTHERSTYLESHEET*************/
-
-.main {
-    position: absolute;
-    top: 200px;
-    left: 271px;
-    z-index: 0;
-}
-
-/*******TOBEMOVEDTOOTHERSTYLESHEET*************/
-
-
-
 /*
 Mid-size screen styles
 */
@@ -78,15 +64,4 @@ Smaller screen styles
         top: 132px;
     }
 
-
-    /*******TOBEMOVEDTOOTHERSTYLESHEET*************/
-
-    .main {
-        position: absolute;
-        top: 262px;
-    }
-
-/*******TOBEMOVEDTOOTHERSTYLESHEET*************/
-
-}
 
