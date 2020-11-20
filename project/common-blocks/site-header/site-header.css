@@ -36,12 +36,8 @@ Global styles
 
 .header_nav_li {
   list-style-type: none;
-  padding: 0 5%;
+  padding: 0 10px;
 }
-
-/* .header_nav_li {
-  padding: 0 5%;
-} */
 
 .header_nav_link {
   text-decoration: none;
