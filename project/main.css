@@ -5,4 +5,7 @@ Global styles for entire site
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  position: relative;
+  min-height: 150vh;
+  padding-bottom: 2.5rem;
 }
