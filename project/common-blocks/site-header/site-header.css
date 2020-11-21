@@ -24,10 +24,11 @@ Global styles
 }
 
 .header__title {
-  line-height: 1.5em;
+  line-height: 1em;
   padding: 15px;
   margin: 0;
   letter-spacing: 2px;
+  font-size: 1.5em;
 }
 
 .header__link {

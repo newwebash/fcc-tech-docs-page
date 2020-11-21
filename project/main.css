@@ -5,7 +5,28 @@ Global styles for entire site
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  position: relative;
-  min-height: 150vh;
-  padding-bottom: 2.5rem;
+  background-color:  #fdfdfd
+}
+
+.wrapper {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/*
+Smaller screen styles
+*/
+
+@media (max-width: 450px) {
+
+  .wrapper {
+      top: 108px;
+  }
+
 }
