@@ -44,6 +44,7 @@ Global styles
 .header_nav_li {
   list-style-type: none;
   padding: 0 20px;
+  text-transform: uppercase;
 }
 
 .header_nav_link {
