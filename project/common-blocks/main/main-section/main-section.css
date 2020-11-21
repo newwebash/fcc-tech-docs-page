@@ -10,13 +10,38 @@ Global styles
     top: 88px;
     left: 271px;
     z-index: 0;
+    padding: 15px 15px 0 50px;
+    max-width: 700px;
+    font-size: 1.1em;
+    line-height: 1.6em;
 }
+
+.main-section {
+    padding-bottom: 20px;
+}
+
+.main-section__description {
+    color: #2e86de;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    line-height: 2em;
+}
+
 
 
 /*
 Mid-size screen styles
 */
 
+@media (max-width: 800px) {
+
+    .main {
+        top: 240px;
+        left: 0;
+        padding: 0 15px;
+    }
+}
 
 /*
 Smaller screen styles
@@ -26,8 +51,9 @@ Smaller screen styles
 
     .main {
         /* position: absolute; */
-        top: 262px;
+        top: 300px;
         left: 0;
+        padding: 0 15px;
     }
 
 }
