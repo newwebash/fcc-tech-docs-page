@@ -20,11 +20,11 @@ Global styles
     list-style-type: none;
     line-height: 2em;
     padding: 10px 15px 10px 25px;
-    border-left: 1px solid #2e86de;
+    border-left: 1px solid  #4a69bd;
 }
 
 .side-nav_nav-link {
-    color: #2e86de;
+    color:  #4a69bd;
     font-weight: 700;
     text-decoration: none;
 }
