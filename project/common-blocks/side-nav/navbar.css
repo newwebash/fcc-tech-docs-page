@@ -10,10 +10,19 @@ Global styles
     font-size: 0.9em;
 }
 
-.side-nav__ul {
-    margin: 0 auto;
+.side-nav-content {
+    margin: 0 auto;    
+}
+
+.side-nav_header {
+    font-size: 1.3em;
+    font-weight: 700;
+    color:  #4a69bd;
     padding: 40px 15px 15px 35px;
-    
+}
+
+.side-nav__ul {
+    padding: 15px 15px 15px 35px;
 }
 
 .side-nav-li-h1 {
