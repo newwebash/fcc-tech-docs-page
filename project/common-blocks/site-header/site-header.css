@@ -6,7 +6,7 @@ Global styles
 */
 
 .site-header {
-  background-color: #2e86de;
+  background-color: #4a69bd;
   color: #fff;
   margin: 0;
   padding: 5px;
@@ -24,10 +24,16 @@ Global styles
 }
 
 .header__title {
-  line-height: 1.5em;
+  line-height: 1em;
   padding: 15px;
   margin: 0;
   letter-spacing: 2px;
+  font-size: 1.5em;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .header__nav {
@@ -44,11 +50,10 @@ Global styles
 .header_nav_li {
   list-style-type: none;
   padding: 0 20px;
+  text-transform: uppercase;
 }
 
 .header_nav_link {
-  text-decoration: none;
-  color: #fff;
   font-weight: 700;
   padding-bottom: 15px;
 }
